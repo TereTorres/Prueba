@@ -37,6 +37,13 @@ class Resta extends Operacion{
     }
 }
 
+class Multiplicacion extends Operacion{
+
+    Multiplicacion(){
+        this.resultado=this.valorA*this.ValorB;
+    }
+}
+
 let operacionS = new Suma();
 operacionS.ValorA=45;
 operacionS.ValorB=10;
